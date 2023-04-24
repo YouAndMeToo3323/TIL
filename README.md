@@ -73,3 +73,24 @@ pull vs fetch
 온라인 상에서 Git의 ***버전 관리 기능***을 사용할 수 있습니다.
 
 ---
+
+> The information manager from hell.
+>> git means "global information tracker"
+
+---
+
+한 줄짜리 소스 코드는 `function add(x,y) {return x + y;} ` 처럼 사용합니다.
+
+소스 코드 삽입하기
+
+``` javascript
+<script>
+   var now = new Date();
+   var display = new.toLocaleTimesString();
+   document.write("현재 시각은 " + display);
+</scirpt>
+```
+
+코드 입력 끝!
+
+
