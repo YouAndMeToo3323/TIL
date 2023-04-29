@@ -27,7 +27,8 @@ Git을 공부한 자료를 모았습니다.
 - 기존 Repository의 주소를 복사
 - Subtree에 기존 Repository명과 기존메인 브랜치명, 주소를 입력하여 차례대로 병합.
 
-` git remote add origin <원격 저장소 주소> `
+
+` git remote add origin <원격 저장소 주소> ` //수정이 필요함.
 
 ` git subtree add prefix=기존Repository명 기존Repository주소 기존메인브랜치명`
 
