@@ -31,17 +31,20 @@ Git을 공부한 책과 사이트를 적었습니다.
 
 `git push -u origin master`
 
-4. 기존 Repository들을 새로 생성한 Repository로 합치기
+4. 기존 Repository들을 새로 생성한 로컬 저장소로 합치기
 - 
 - 기존 Repository의 주소를 복사
 - Subtree에 기존 Repository명과 기존메인 브랜치명, 주소를 입력하여 차례대로 병합.
 
-
-` git remote add origin <원격 저장소 주소> ` //수정이 필요함.
-
 ` git subtree add prefix=기존Repository명 기존Repository주소 기존메인브랜치명`
 
 5. 하나로 합친 Repository 원격저장소로 push
-- 합쳐진 Repository를 원격저장소(GitHub)로 push
+- 합쳐진 Repository를 로컬 저장소에서 원격저장소(GitHub)로 push 
 
+` git push origin HEAD:main --force `
 
+// 블로그 velog와 달리 책 내용에 따르면 원격 저장소를 복제하면 자동으로 지역 저장소와 원격저장소가 깃&깃허브 170 page
+
+// --force 명령어는 사용자의 로컬 변경사항들이 원격 변경사항들과 호환되지 않는 경우, 사용자의 변경사항을 push 하는 유일한 방법이 force push를 이용하는 것.
+
+// 다음에 --force 명령어 없이 테스트해보기
