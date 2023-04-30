@@ -1,4 +1,13 @@
-Git을 공부한 자료를 모았습니다.
+Git을 공부한 책과 사이트를 적었습니다.
+
+참고 도서
+
+[지옥에서 온 문서 관리자 깃&깃허브 입문](https://www.google.co.kr/books/edition/Do_it_%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C_%EC%98%A8_%EB%AC%B8%EC%84%9C_%EA%B4%80%EB%A6%AC%EC%9E%90/W6HFDwAAQBAJ?hl=ko&gbpv=0)
+
+참고사이트
+
+[velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0, "Repository 합치기"), 
+[yeonLog](https://yeonyeon.tistory.com/169, "Repository 합치기")
 
 ---
 
