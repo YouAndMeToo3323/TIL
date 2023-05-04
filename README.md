@@ -35,7 +35,7 @@ git push -u origin master
 - 기존 Repository의 주소를 복사
 - Subtree에 기존 Repository명과 기존메인 브랜치명, 주소를 입력하여 차례대로 병합.
 
-` git subtree add prefix=기존Repository명 기존Repository주소 기존메인브랜치명`
+` git subtree add --prefix=기존Repository명 기존Repository주소 기존메인브랜치명`
 
 5. 하나로 합친 Repository 원격저장소로 push
 - 합쳐진 Repository를 로컬 저장소에서 원격저장소(GitHub)로 push 
