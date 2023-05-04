@@ -6,12 +6,12 @@ Git을 공부한 도서와 사이트를 적었습니다.
 
 * 참고사이트
 
-[Repository 병합 - velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0), [Repository 병합 - yeonLog](https://yeonyeon.tistory.com/169)
+[Repository 병합 - velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0), [yeonLog](https://yeonyeon.tistory.com/169)
 
 [리눅스](https://veneas.tistory.com/category/OS/Linux)
 
 
-[->폴더 접근 불가능](https://zzang9ha.tistory.com/346)
+[->폴더 접근 불가능 - 주발2](https://zzang9ha.tistory.com/346), [하얀 문틈](https://shortcuts.tistory.com/30)
 
 ---
 ## 기존 Repository들을 새로운 Repository에 병합
@@ -44,7 +44,7 @@ git push -u origin master
 - 합쳐진 Repository를 로컬 저장소에서 원격저장소(GitHub)로 push 
 
 ` git push origin HEAD:main --force `
-```c
+```
 /*
 블로그 velog와 달리 책 내용에 따르면 원격 저장소를 복제하면 자동으로 지역 저장소와 원격저장소가 깃&깃허브 170 page.
 --force 명령어는 사용자의 로컬 변경사항들이 원격 변경사항들과 호환되지 않는 경우,
@@ -57,8 +57,9 @@ git push -u origin master
 ---
 
 ## GitHub 디렉토리 화살표 표시 -> 폴더 접근 불가능
+간혹 PushGitHub 디렉토리 중 아이콘에 화살표 표시가 된 폴더가 나오는 경우가 있다.
 
-최상위 디렉토리에 이미 .git이라는 파일이 존재하는데 해당 디렉토리(inflearn-crawling-jsoup)에서도 push를 진행하는 과정에 .git 파일이 생겨서 발생하는 오류.
+그 이유는 상위 저장소가 존재하는데 하위 저장소가 존재하기 때문이다. 즉 문제의 폴더 안에 .git 파일이 있는 것이다.
 
 
 
