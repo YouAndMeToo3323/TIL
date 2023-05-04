@@ -1,14 +1,14 @@
-Git을 공부한 책과 사이트를 적었습니다.
+Git을 공부한 도서와 사이트를 적었습니다.
 
 참고 도서
 
 [지옥에서 온 문서 관리자 깃&깃허브 입문](https://www.google.co.kr/books/edition/Do_it_%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C_%EC%98%A8_%EB%AC%B8%EC%84%9C_%EA%B4%80%EB%A6%AC%EC%9E%90/W6HFDwAAQBAJ?hl=ko&gbpv=0)
 
-참고사이트
+* 참고사이트
 
-[velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0), [yeonLog](https://yeonyeon.tistory.com/169)
+[Repository 병합 - velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0), [Repository 병합 - yeonLog](https://yeonyeon.tistory.com/169)
 
----
+[리눅스](https://veneas.tistory.com/category/OS/Linux)
 
 ## 기존 Repository들을 새로운 Repository에 병합
 
@@ -47,4 +47,5 @@ git push -u origin master
 사용자의 변경사항을 push 하는 유일한 방법이 force push를 이용하는 것.
 다음에 --force 명령어 없이 테스트해보기.
 */
+
 ```
