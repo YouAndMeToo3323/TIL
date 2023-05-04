@@ -1,6 +1,6 @@
 Git을 공부한 도서와 사이트를 적었습니다.
 
-참고 도서
+* 참고 도서
 
 [지옥에서 온 문서 관리자 깃&깃허브 입문](https://www.google.co.kr/books/edition/Do_it_%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C_%EC%98%A8_%EB%AC%B8%EC%84%9C_%EA%B4%80%EB%A6%AC%EC%9E%90/W6HFDwAAQBAJ?hl=ko&gbpv=0)
 
@@ -10,6 +10,10 @@ Git을 공부한 도서와 사이트를 적었습니다.
 
 [리눅스](https://veneas.tistory.com/category/OS/Linux)
 
+
+[->폴더 접근 불가능](https://zzang9ha.tistory.com/346)
+
+---
 ## 기존 Repository들을 새로운 Repository에 병합
 
 1. 새로운 Repository 생성
@@ -49,3 +53,15 @@ git push -u origin master
 */
 
 ```
+
+---
+
+## GitHub 디렉토리 화살표 표시 -> 폴더 접근 불가능
+
+최상위 디렉토리에 이미 .git이라는 파일이 존재하는데 해당 디렉토리(inflearn-crawling-jsoup)에서도 push를 진행하는 과정에 .git 파일이 생겨서 발생하는 오류.
+
+
+
+
+
+---
