@@ -32,4 +32,5 @@ Subtree에 기존 Repository명과 기존메인 브랜치명, 주소를 입력�
 
 --force 명령어는 사용자의 로컬 변경사항들이 원격 변경사항들과 호환되지 않는 경우, 사용자의 변경사항을 push 하는 유일한 방법이 **force push**를 이용하는 것.
 
+### 참고 블로그
 [Repository 병합 - velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0), [yeonLog](https://yeonyeon.tistory.com/169)
