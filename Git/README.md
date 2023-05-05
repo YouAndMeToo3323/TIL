@@ -1,4 +1,4 @@
-Git을 공부한 도서와 사이트를 적었습니다.
+Git을 공부하면서 알게된 도서와 사이트, 문제 해결 방법을 적었습니다.
 
 * 참고 도서
 
@@ -6,85 +6,10 @@ Git을 공부한 도서와 사이트를 적었습니다.
 
 * 참고사이트
 
-[Repository 병합 - velog](https://velog.io/@ejayjeon/Github-Repository%EB%93%A4-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C-%ED%95%98%EB%82%98%EB%A1%9C-%ED%95%A9%EC%B9%98%EA%B8%B0), [yeonLog](https://yeonyeon.tistory.com/169)
-
 [리눅스](https://veneas.tistory.com/category/OS/Linux)
 
 
-[->폴더 접근 불가능 - 주발2](https://zzang9ha.tistory.com/346), [하얀 문틈](https://shortcuts.tistory.com/30)
+### Github 문제 해결 방법
+[->폴더 접근 불가능](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/-%3E%ED%8F%B4%EB%8D%94%20%EC%8B%A4%ED%96%89%20%EB%B6%88%EA%B0%80.md)
 
----
-## 기존 Repository들을 새로운 Repository에 병합
-
-1. 새로운 Repository 생성
-- 자신의 프로필에서 Repositories 선택
--  기존 Repository들을 합칠 새로운 Repository(New)로 생성.
-
-2. 새로운 Repository를 로컬 저장소로 clone
-- 생성한 Repository의 주소를 복사하고 로컬 저장소로 clone.
-
-` git clone 복사한Repository주소 `
-
-3. clone한 Repository에 기록 남기기
-- 새로 생성한 Repository는 기록이 없다면 기존 Repository들을 합칠 수 없으므로, 터미널을 이용하여 commit과 GitHub에 push를 실행.
-
-```
-$ git add 파일명
-$ git commit -m '기록할 메시지'
-$ git push -u origin master
-```
-
-4. 기존 Repository들을 새로 생성한 로컬 저장소로 합치기
-- 기존 Repository의 주소를 복사
-- Subtree에 기존 Repository명과 기존메인 브랜치명, 주소를 입력하여 차례대로 병합.
-
-` $ git subtree add --prefix=기존Repository명 기존Repository주소 기존메인브랜치명`
-
-5. 하나로 합친 Repository 원격저장소로 push
-- 합쳐진 Repository를 로컬 저장소에서 원격저장소(GitHub)로 push 
-
-` $ git push origin HEAD:main --force `
-
-```
-
-블로그 velog와 달리 책 내용에 따르면 원격 저장소를 복제하면 자동으로 지역 저장소와 원격저장소가 깃&깃허브 170 page.
---force 명령어는 사용자의 로컬 변경사항들이 원격 변경사항들과 호환되지 않는 경우,
-사용자의 변경사항을 push 하는 유일한 방법이 force push를 이용하는 것.
-다음에 --force 명령어 없이 테스트해보기.
-
-```
-
----
-
-## GitHub 디렉토리 화살표 표시 -> 폴더 접근 불가능
-간혹 PushGitHub 디렉토리 중 아이콘에 화살표 표시가 된 폴더가 나오는 경우가 있다.
-
-그 이유는 상위 저장소가 존재하는데 하위 저장소가 존재하기 때문이다. 즉 문제의 폴더 안에 .git 파일이 있는 것이다.
-
-해결방법:
-
-1. 컴퓨터에서 숨겨진 파일을 보이게 한다.
-
-* 숨김파일 표시 방법
-
-  - 윈도우(Windows): 파일탐색기 > 상단 보기 탭 > '숨긴 항목' 체크
-
-  - 맥(Mac): Finder > command+shift+. 키 입력
-  
-  ```
-  원래 저장소가 Main 폴더고, 문제의 폴더는 그 안에있는 Sub 폴더라고 하자. 즉 깃허브에서 화살표 표시가 되는 폴더는 Sub폴더이다.
-  그럼 Main 폴더와 Sub폴더 모두에 .git 파일이 있는 것을 확인할 수 있다.
-  ```
-  
-2. 문제의 폴더에 있는 .git 파일을 제거한다. 즉 Sub 폴더 내부의 .git 파일을 삭제한다.
-
-3. 스테이지의 파일 제거
-
-- Sub폴더에서 커맨드창(bash창)을 열고, 다음과 같이 명령한다.
-
-```
-$ git rm --cached . -rf
-```
-- 다시 add, commit, push를 실행.
-
----
+[GitHub의 Repository 병합](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/Repository%20%EB%B3%91%ED%95%A9.md)
