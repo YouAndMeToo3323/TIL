@@ -8,7 +8,7 @@ Git을 공부하면서 알게된 도서와 사이트, 문제 해결 방법을 �
 
 * 참고사이트
 
-[리눅스](https://veneas.tistory.com/category/OS/Linux)
+[Github 사용설명서](https://docs.github.com/ko/get-started), [리눅스](https://veneas.tistory.com/category/OS/Linux)
 
 
 ### Github 문제 발생시 해결 방법
