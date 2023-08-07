@@ -1,4 +1,4 @@
- ## 깃(Git) 용어 및 사용방법
+ ## 깃(Git_Bash) 용어 및 사용방법
 
 **1. 깃 환경 설정하기**
 
@@ -13,7 +13,7 @@ $git config --global user.name "user name"
 $git config --global user.email "usermail@gmail.com"
 ```
 
-**2. Git Bash(리눅스) 명령 정리**
+**2. Git Bash 명령 정리**
 
 ```git
 $ pwd
