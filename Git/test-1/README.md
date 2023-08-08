@@ -5,7 +5,7 @@
 
 저장소에 대한 소개글을 작성합니다.
 
-![바탕화면 1](./images/01.jpg)
+![image](https://github.com/YouAndMeToo3323/TIL/assets/126636390/35961225-978f-4e82-ad84-14223adc2e5c)
 
 ---
 # 제목
