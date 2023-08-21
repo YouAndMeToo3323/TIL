@@ -1,8 +1,26 @@
 Git을 공부하면서 알게된 도서와 사이트, 문제 해결 방법을 적었습니다.
 
 ---
+* Git Bash
+    * [Git Bash 사용법](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/Git%20Bash/Git_Bash_%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+    * [버전 관리](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/Git%20Bash/%EB%B2%84%EC%A0%84_%EA%B4%80%EB%A6%AC.md)
+
+* GitHub
+    *  [깃허브 사용법](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/GitHub/%EA%B9%83%ED%97%88%EB%B8%8C_%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+    *  [Repository 병합](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/GitHub/Repository_%EB%B3%91%ED%95%A9.md)
+    *  [화살표 폴더 실행 불가](https://github.com/YouAndMeToo3323/TIL/blob/main/Git/GitHub/%ED%99%94%EC%82%B4%ED%91%9C_%ED%8F%B4%EB%8D%94_%EC%8B%A4%ED%96%89_%EB%B6%88%EA%B0%80.md)
 
 
+
+
+
+
+
+
+
+
+
+---
 ### Github 문제 발생시 해결 방법
 
 
