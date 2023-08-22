@@ -8,19 +8,19 @@
 * Git명령을 단독으로 입력하면 쓸 수 있는 여러 옵션이 표시합니다.
    * 여기서 --global 옵션을 추가하면 현재 컴퓨터에 있는 모든 저장소에서 같은 사용자 정보를 사용하도록 설정합니다.
 
-```git
+```bash
 $git config --global user.name "user name"
 $git config --global user.email "usermail@gmail.com"
 ```
 
 **2. Git Bash 명령 정리**
 
-```git
+```bash
 $ pwd
 ```
 * pwd는 'print working directory'의 줄임말로, 현재 위치의 경로를 알려줍니다.
 
-```git
+```bash
 $ ls (option)
 ```
 * ls 명령은 'list'의 줄임말로, 현재 디렉터리에 어떤 파일이나 디렉터리가 있는지 확인할 때 사용합니다.
@@ -32,7 +32,7 @@ $ ls (option)
 |-r|파일의 정렬 순서를 거꾸로 표시합니다|
 |-t|파일 작성 시간 순으로 (내림차순) 표시합니다|
 
-```git
+```bash
 $ cd (directory)
 ```
 * cd 명령은 'change directory'의 줄임말로, 터미널 창에서 디렉터리 사이를 이동할 때 사용합니다.
@@ -45,7 +45,7 @@ $ cd (directory)
 |./|현재 사용자가 작업 중인 디렉터리|
 |../|현재 디렉터리의 상위 디렉터리|
 
-```git
+```bash
 $ mkdir (directory)
 ```
 * mkdir 명령은 'make directory'의 줄임말로, 해당 디렉터리에서 하위 디렉터리를 생성합니다.
@@ -56,7 +56,7 @@ $ rm (option) (directory)
 * rm 명령은 'remove'의 줄임말로, 해당 디렉터리 안에 있는 하위 디렉터리를 삭제합니다.
   * -r 옵션을 붙이면 디렉터리 안에 있는 하위 디렉터리와 파일까지 함께 삭제합니다.
 
-```git
+```bash
 $ vim (파일이름.확장자)
 ```
 * 리눅스의 기본 편집기인 빔(vim)은 터미널에서 사용할 수 있는 대표적인 편집기입니다.
@@ -71,7 +71,7 @@ $ vim (파일이름.확장자)
 |:wq (파일)|편집 중이던 문서를 저장 및 종료. 파일 이름을 함께 입력하면 그 이름으로 저장합니다|
 |:q!|문서를 저장하지 않고 편집기를 종료. 확장자가 미입력시 .swp인 임시 파일이 생성합니다|
 
-```git
+```bash
 $ git config --global core.editor "code --wait(변경할 편집기)"
 $ code (파일이름.확장자)
 ```
@@ -79,7 +79,7 @@ $ code (파일이름.확장자)
   * 편집기 이름 대신 편집기 실행 파일의 경로로 입력 가능합니다.
   * vscode는 "code --wait" 입력으로 변경 가능합니다.
 
-```git
+```bash
 $cat (파일이름.확장자)
 ```
 * cat 명령은 concatenate의 줄임말로, 터미널 창에서 간단히 문서의 내용을 확인 가능합니다.
