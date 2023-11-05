@@ -1,5 +1,5 @@
 기존 Repository들을 새로운 Repository에 병합
-===
+---
 #### 1. 새로운 Repository 생성
 자신의 프로필에서 Repositories 선택합니다.
 
