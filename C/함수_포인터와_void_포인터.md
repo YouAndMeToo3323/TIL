@@ -60,3 +60,7 @@ int main(int argc, char* argv[])
   }
   return 0;
 }
+```
+* 실행파일은 프로젝트 생성시 만들어진 '프로젝트 디렉터리'의 Debug폴더에서 찾을 수 있다.
+* 실행파일은 명령 프롬프트를 이용하여 실행 할 수 있으며, 프로그램 실행과정에서 입력한 내용이 프로그램 안으로 전달되어서<br/> 출력이 이루어진다.<br/>
+<img src = "https://github.com/YouAndMeToo3323/TIL/blob/main/C/image/main%ED%95%A8%EC%88%98_%EC%9D%B8%EC%9E%90%EC%A0%84%EB%8B%AC.png?raw=true" width ="850px" height= "400px" title = "명령프롬프트으로 실행"></img>
