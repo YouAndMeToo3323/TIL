@@ -43,3 +43,20 @@ void* ptr =&num;
 *ptr = 20;	//컴파일 에러
 ptr++;		//컴파일 에러
 ```
+#### main함수로의 인자전달
+* 프로그램 실행 시 main함수로 전달할 인자를 열거할 수 있으며(결정할 수 있으며), main함수 역시 이러한 인자를 전달받을 수 있도록 <br/>제한된 형태의 매개변수 선언이 가능하다.
+* main함수의 매개변수 argv는 더블 포인터 변수이고 char형 포인터 변수로 이뤄진 1차원 배열의 이름을 전달 받을 수 있는 매개변수이다.
+
+```cpp
+int main(int argc, char* argv[])
+{
+  int i = 0;
+  printf("전달된 문자열의 수: %d \n", argc);
+
+  while(argv[i] != NULL)
+  {
+    printf("%d번째 문자열: %s \n", i + 1, argv[i]);
+    i++;
+  }
+  return 0;
+}
