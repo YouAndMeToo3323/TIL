@@ -64,7 +64,7 @@ Hyper-V 요구 사항에서 **"펌웨어 가상화 사용"** 항목이 **"아니
 
 만약 **UEFI BIOS**에서 가상화 옵션이 없을 경우 가까운 서비스 센터에 방문하여 가상화를 활성화 하시면 됩니다.
 
-### 참고사이트
-[리눅스OS 구동](https://lunacellstone.tistory.com/88),
-[Hyper-v 사용 및 설정](https://learn.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v),
+#### 참고문헌 출처
+[리눅스OS 구동](https://lunacellstone.tistory.com/88)<br/>
+[Hyper-v 사용 및 설정](https://learn.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)<br/>
 [가상화 활성화](https://forbes.tistory.com/995)
