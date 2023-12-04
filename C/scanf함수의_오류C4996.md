@@ -47,7 +47,7 @@ scanf(...);
 * 실행 방법
 1) [솔루션 탐색기] -> [프로젝트 우클릭] -> [속성(R)]
 2) [프로젝트 속성] -> [C/C++] -> [SDL 검사]: 아니요(/sdl-) 선택
-
+<img src = "https://github.com/YouAndMeToo3323/TIL/blob/main/C/image/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EC%86%8D%EC%84%B1.png?raw=true" width = "900px" height = "500px" title = "프로젝트 속성"></img>
 
 
 
