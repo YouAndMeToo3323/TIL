@@ -15,6 +15,9 @@ C언어 공부를 시작합니다.
 10. [포인터의 포인터](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%9D%98_%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
 11. [함수 포인터와 void 포인터](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%ED%95%A8%EC%88%98_%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80_void_%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
 
+---
+#### 발생하는 문제에 대한 해결방법
+[scanf함수의_오류C4996](https://github.com/YouAndMeToo3323/TIL/blob/main/C/scanf%ED%95%A8%EC%88%98%EC%9D%98_%EC%98%A4%EB%A5%98C4996.md)
 
 
 
