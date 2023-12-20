@@ -16,7 +16,7 @@ C언어 공부를 시작합니다.
 11. [함수 포인터와 void 포인터](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%ED%95%A8%EC%88%98_%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80_void_%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
 12. [스트림과 데이터의 이동](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EC%8A%A4%ED%8A%B8%EB%A6%BC%EA%B3%BC_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98_%EC%9D%B4%EB%8F%99.md)
 13. [구조체_1](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EA%B5%AC%EC%A1%B0%EC%B2%B4_1.md)
-14. [구조체_2]
+14. [구조체_2](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EA%B5%AC%EC%A1%B0%EC%B2%B4_2.md)
 ---
 #### 발생하는 문제에 대한 해결방법
 [scanf함수의_오류C4996](https://github.com/YouAndMeToo3323/TIL/blob/main/C/scanf%ED%95%A8%EC%88%98%EC%9D%98_%EC%98%A4%EB%A5%98C4996.md)
