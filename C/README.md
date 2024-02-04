@@ -18,6 +18,7 @@ C언어 공부를 시작합니다.
 13. [구조체 1](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EA%B5%AC%EC%A1%B0%EC%B2%B4_1.md)
 14. [구조체 2](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EA%B5%AC%EC%A1%B0%EC%B2%B4_2.md)
 15. [파일 입출력](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%ED%8C%8C%EC%9D%BC_%EC%9E%85%EC%B6%9C%EB%A0%A5.md)
+16. [메모리](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 ---
 #### 발생하는 문제에 대한 해결방법
 [scanf함수의_오류C4996](https://github.com/YouAndMeToo3323/TIL/blob/main/C/scanf%ED%95%A8%EC%88%98%EC%9D%98_%EC%98%A4%EB%A5%98C4996.md)
@@ -29,7 +30,8 @@ C언어 공부를 시작합니다.
 ---
 #### 참고문헌 출처
 [C언어설명서](https://learn.microsoft.com/ko-kr/cpp/c-language/?view=msvc-170)<br/>
-[윤성우의 열혈 C프로그래밍](https://www.google.co.kr/books/edition/%EC%9C%A4%EC%84%B1%EC%9A%B0%EC%9D%98_%EC%97%B4%ED%98%88_C_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/GK8NKQEACAAJ?hl=ko)
+[윤성우의 열혈 C프로그래밍](https://www.google.co.kr/books/edition/%EC%9C%A4%EC%84%B1%EC%9A%B0%EC%9D%98_%EC%97%B4%ED%98%88_C_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/GK8NKQEACAAJ?hl=ko)<br/>
+[TCP School](https://tcpschool.com/c/c_memory_structure)
 
 [헤이즐넛s_오류C4996 해결 방법](https://itisguide.tistory.com/8)<br/>
 [Microsoft Build_C4996](https://learn.microsoft.com/ko-kr/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?view=msvc-170)
