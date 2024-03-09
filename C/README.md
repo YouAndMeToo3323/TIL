@@ -3,7 +3,7 @@ C언어 공부를 시작합니다.
 ---
 
 #### 학습
-1.
+1.[헤더파일](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%ED%97%A4%EB%8D%94%ED%8C%8C%EC%9D%BC.md)
 2. [연산자](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EC%97%B0%EC%82%B0%EC%9E%90.md)
 3. [데이터의 표현](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98_%ED%91%9C%ED%98%84.md)
 4. [자료형과 상수](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EC%9E%90%EB%A3%8C%ED%98%95%EA%B3%BC_%EC%83%81%EC%88%98.md)
