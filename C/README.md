@@ -17,7 +17,7 @@ C언어 공부를 시작합니다.
 12. [스트림과 데이터의 이동](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EC%8A%A4%ED%8A%B8%EB%A6%BC%EA%B3%BC_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98_%EC%9D%B4%EB%8F%99.md)
 13. [구조체 1](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EA%B5%AC%EC%A1%B0%EC%B2%B4_1.md)
 14. [구조체 2](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EA%B5%AC%EC%A1%B0%EC%B2%B4_2.md)
-15. [링크드 리스트]()
+15. [링크드 리스트](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EB%A7%81%ED%81%AC%EB%93%9C%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md#%EB%A7%81%ED%81%AC%EB%93%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8)
 16. [파일 입출력](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%ED%8C%8C%EC%9D%BC_%EC%9E%85%EC%B6%9C%EB%A0%A5.md)
 17. [메모리](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 18. [선행처리와 매크로](https://github.com/YouAndMeToo3323/TIL/blob/main/C/learn/%EC%84%A0%ED%96%89%EC%B2%98%EB%A6%AC%EC%99%80_%EB%A7%A4%ED%81%AC%EB%A1%9C.md)
