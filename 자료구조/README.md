@@ -9,5 +9,5 @@
 ---
 
 #### 참고문헌 출처
-1. [Big-O 알고리즘 시간복잡도 그래프](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/image/Big-O%20Complexity%20Chart.jpeg?raw=true)
+1. [Big-O 알고리즘 시간복잡도 그래프](https://www.bigocheatsheet.com/)
 
