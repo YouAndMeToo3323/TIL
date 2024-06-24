@@ -6,8 +6,12 @@
 1. [자료구조와 알고리즘](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/learn/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 2. [접근적 표기법](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/learn/%EC%A0%91%EA%B7%BC%EC%A0%81_%ED%91%9C%EA%B8%B0%EB%B2%95.md)
 3. [재귀](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/learn/%EC%9E%AC%EA%B7%80.md)
+4. [리스트](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/learn/%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)
 
 #### 백준
+1. [유클리드 호제법](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BackJoon/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C_%ED%98%B8%EC%A0%9C%EB%B2%95.md)
+2. [소수판별 알고리즘](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BackJoon/%EC%86%8C%EC%88%98%ED%8C%90%EB%B3%84_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+
 
 ---
 
