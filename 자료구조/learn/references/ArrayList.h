@@ -1,5 +1,5 @@
-#ifndef __ARRAY_LIST_H__
-#define __ARRAY_LIST_H__
+#ifndef __ARRAY_LIST_H__		//만약 ArrayList.h가 이미 선언했을 경우 #endif로 중복 헤더파일 방지
+#define __ARRAY_LIST_H__		//ArrayList.h 선언
 
 #define TRUE 1				//'참'을 표현하기 위한 매크로 정의
 #define FALSE 0				//'거짓'을 표현하기 위한 매크로 정의
