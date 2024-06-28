@@ -1,28 +1,28 @@
 #ifndef __ARRAY_LIST_H__
 #define __ARRAY_LIST_H__
 
-#define TRUE 1		//'Âü'À» Ç¥ÇöÇÏ±â À§ÇÑ ¸ÅÅ©·Î Á¤ÀÇ
-#define FALSE 0		//'°ÅÁş'À» Ç¥ÇöÇÏ±â À§ÇÑ ¸ÅÅ©·Î Á¤ÀÇ
+#define TRUE 1				//'ì°¸'ì„ í‘œí˜„í•˜ê¸° ìœ„í•œ ë§¤í¬ë¡œ ì •ì˜
+#define FALSE 0				//'ê±°ì§“'ì„ í‘œí˜„í•˜ê¸° ìœ„í•œ ë§¤í¬ë¡œ ì •ì˜
 
 #define LIST_LEN 100
-typedef int LData;	//LData¿¡ ´ëÇÑ typedef ¼±¾ğ
+typedef int LData;			//LDataì— ëŒ€í•œ typedef ì„ ì–¸
 
-typedef struct __ArrayList	//¹è¿­±â¹İ ¸®½ºÆ®¸¦ Á¤ÀÇÇÑ ±¸Á¶Ã¼
+typedef struct __ArrayList		//ë°°ì—´ê¸°ë°˜ ë¦¬ìŠ¤íŠ¸ë¥¼ ì •ì˜í•œ êµ¬ì¡°ì²´
 {
-	LData arr[LIST_LEN];	//¸®½ºÆ®ÀÇ ÀúÀå¼ÒÀÎ ¹è¿­
-	int numOfData;			//ÀúÀåµÈ µ¥ÀÌÅÍÀÇ ¼ö
-	int curPosition;		//µ¥ÀÌÅÍ ÂüÁ¶ÀÇÄ¡¸¦ ±â·Ï
+	LData arr[LIST_LEN];		//ë¦¬ìŠ¤íŠ¸ì˜ ì €ì¥ì†Œì¸ ë°°ì—´
+	int numOfData;			//ì €ì¥ëœ ë°ì´í„°ì˜ ìˆ˜
+	int curPosition;		//ë°ì´í„° ì°¸ì¡°ì˜ì¹˜ë¥¼ ê¸°ë¡
 } ArrayList;
 
 typedef ArrayList List;
 
-void ListInit(List* plist);				//ÃÊ±âÈ­
-void LInsert(List* plist, LData data);	//µ¥ÀÌÅÍ ÀúÀå
+void ListInit(List* plist);		//ì´ˆê¸°í™”
+void LInsert(List* plist, LData data);	//ë°ì´í„° ì €ì¥
 
-int LFirst(List* plist, LData* pdata);	//Ã¹ µ¥ÀÌÅÍ ÂüÁ¶
-int LNext(List* plist, LData* pdata);	//µÎ ¹øÂ° ÀÌÈÄ µ¥ÀÌÅÍ ÂüÁ¶
+int LFirst(List* plist, LData* pdata);	//ì²« ë°ì´í„° ì°¸ì¡°
+int LNext(List* plist, LData* pdata);	//ë‘ ë²ˆì§¸ ì´í›„ ë°ì´í„° ì°¸ì¡°
 
-LData LRemove(List* plist);				//ÂüÁ¶ÇÑ µ¥ÀÌÅÍ »èÁ¦
-int LCount(List* plist);				//ÀúÀåµÈ µ¥ÀÌÅÍÀÇ ¼ö ¹İÈ¯
+LData LRemove(List* plist);		//ì°¸ì¡°í•œ ë°ì´í„° ì‚­ì œ
+int LCount(List* plist);		//ì €ì¥ëœ ë°ì´í„°ì˜ ìˆ˜ ë°˜í™˜
 
 #endif
