@@ -11,6 +11,7 @@
 #### 백준
 1. [유클리드 호제법](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BackJoon/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C_%ED%98%B8%EC%A0%9C%EB%B2%95.md)
 2. [소수판별 알고리즘](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BackJoon/%EC%86%8C%EC%88%98%ED%8C%90%EB%B3%84_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+3. [동적 계획법](https://github.com/YouAndMeToo3323/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BackJoon/%EB%8F%99%EC%A0%81_%EA%B3%84%ED%9A%8D%EB%B2%95.md)
 
 
 ---
