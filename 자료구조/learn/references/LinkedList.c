@@ -3,63 +3,71 @@
 
 void ListInit(List* plist)
 {
-	(plist->numOfData) = 0;		//¸®½ºÆ®¿¡ ÀúÀåµÈ µ¥ÀÌÅÍÀÇ ¼ö¸¦ 0À¸·Î ¼±¾ğ
-	(plist->curPosition) = -1;	//¹è¿­Àº 0ºÎÅÍ ½ÃÀÛÇÏ¹Ç·Î À§Ä¡°ªÀº -1ºÎÅÍ ½ÃÀÛ
+	(plist->numOfData) = 0;		//ë¦¬ìŠ¤íŠ¸ì— ì €ì¥ëœ ë°ì´í„°ì˜ ìˆ˜ë¥¼ 0ìœ¼ë¡œ ì„ ì–¸
+	(plist->curPosition) = -1;	//ë°°ì—´ì€ 0ë¶€í„° ì‹œì‘í•˜ë¯€ë¡œ ìœ„ì¹˜ê°’ì€ -1ë¶€í„° ì‹œì‘
 }
 
 void LInsert(List* plist, LData data)
 {
 	if (plist->numOfData >= LIST_LEN)
 	{
-		printf("ÀúÀåÀÌ ºÒ°¡´ÉÇÕ´Ï´Ù.\n");
+		printf("ì €ì¥ì´ ë¶ˆê°€ëŠ¥í•©ë‹ˆë‹¤.\n");
 		return;
-	}//ÀúÀå¼Òº¸´Ù µ¥ÀÌÅÍ·®ÀÌ Å¬°æ¿ì ÇÔ¼ö Á¾·á
+	}//ì €ì¥ì†Œë³´ë‹¤ ë°ì´í„°ëŸ‰ì´ í´ê²½ìš° í•¨ìˆ˜ ì¢…ë£Œ
 
-	plist->arr[plist->numOfData] = data;	//¹è¿­¿¡ µ¥ÀÌÅÍ ÀúÀå
-	(plist->numOfData)++;					//plist¿¡ ÀúÀåµÈ µ¥ÀÌÅÍÀÇ ¼ö Áõ°¡
+	plist->arr[plist->numOfData] = data;	//ë°°ì—´ì— ë°ì´í„° ì €ì¥
+	(plist->numOfData)++;					//plistì— ì €ì¥ëœ ë°ì´í„°ì˜ ìˆ˜ ì¦ê°€
 }
 
 
 int LFirst(List* plist, LData* pdata)
 {
-	if (plist->numOfData == 0)					//plist¿¡ µ¥ÀÌÅÍ°¡ ¾øÀ» °æ¿ì(0)
+	if (plist->numOfData == 0)					//plistì— ë°ì´í„°ê°€ ì—†ì„ ê²½ìš°(0)
 		return FALSE;
 
-	(plist->curPosition) = 0;					//plistÀÇ ÂüÁ¶À§Ä¡´Â 0
-	*pdata = plist->arr[plist->curPosition];	//plistÀÇ ÂüÁ¶À§Ä¡¿¡ ÇØ´çÇÏ´Â µ¥ÀÌÅÍ Ãâ·Â
+	(plist->curPosition) = 0;					//plistì˜ ì°¸ì¡°ìœ„ì¹˜ëŠ” 0
+	*pdata = plist->arr[plist->curPosition];	//plistì˜ ì°¸ì¡°ìœ„ì¹˜ì— í•´ë‹¹í•˜ëŠ” ë°ì´í„° ì¶œë ¥
 	return TRUE;
 }
 
 int LNext(List* plist, LData* pdata)
 {
-	if (plist->curPosition >= plist->numOfData - 1)	//plistÀÇ ÇöÀç ÂüÁ¶À§Ä¡º¸´Ù ÇöÀç ÀúÀåµÈ µ¥ÀÌÅÍÀÇ ¼ö°¡ ÀûÀ¸¸é(ÂüÁ¶À§Ä¡°¡ 0ºÎÅÍ ½ÃÀÛÇÏ¹Ç·Î µ¥ÀÌÅÍÀÇ¼ö -1)
+	if (plist->curPosition >= plist->numOfData - 1)	//plistì˜ í˜„ì¬ ì°¸ì¡°ìœ„ì¹˜ë³´ë‹¤ í˜„ì¬ ì €ì¥ëœ ë°ì´í„°ì˜ ìˆ˜ê°€ ì ìœ¼ë©´(ì°¸ì¡°ìœ„ì¹˜ê°€ 0ë¶€í„° ì‹œì‘í•˜ë¯€ë¡œ ë°ì´í„°ì˜ìˆ˜ -1)
 		return FALSE;
 
-	(plist->curPosition)++;							//plistÀÇ ÂüÁ¶À§Ä¡ Áõ°¡
-	*pdata = plist->arr[plist->curPosition];		//plistÀÇ ÂüÁ¶À§Ä¡¿¡ ÇØ´çÇÏ´Â µ¥ÀÌÅÍ Ãâ·Â
+	(plist->curPosition)++;							//plistì˜ ì°¸ì¡°ìœ„ì¹˜ ì¦ê°€
+	*pdata = plist->arr[plist->curPosition];		//plistì˜ ì°¸ì¡°ìœ„ì¹˜ì— í•´ë‹¹í•˜ëŠ” ë°ì´í„° ì¶œë ¥
 	return TRUE;
 }
 
 LData LRemove(List* plist)
 {
-	int rpos = plist->curPosition;				//plistÀÇ ÇöÀç ÂüÁ¶À§Ä¡
-	int num = plist->numOfData;					//plistÀÇ ÇöÀç µ¥ÀÌÅÍÀÇ ¼ö
+	int rpos = plist->curPosition;				//plistì˜ í˜„ì¬ ì°¸ì¡°ìœ„ì¹˜
+	int num = plist->numOfData;					//plistì˜ í˜„ì¬ ë°ì´í„°ì˜ ìˆ˜
 	int i;
 	LData rdata = plist->arr[rpos];
 
 	for (i = rpos; i < num - 1; i++)
 	{
-		plist->arr[i] = plist->arr[i + 1];		//plistÀÇ ÇöÀç µ¥ÀÌÅÍ¸¦ ÇÑ Ä­¾¿ ÀÌµ¿
+		plist->arr[i] = plist->arr[i + 1];		//plistì˜ í˜„ì¬ ë°ì´í„°ë¥¼ í•œ ì¹¸ì”© ì´ë™
 	}
-	(plist->curPosition)--;						//plistÀÇ ÇöÀç ÂüÁ¶À§Ä¡ »èÁ¦
-	(plist->numOfData)--;						//plistÀÇ ÇöÀç µ¥ÀÌÅÍÀÇ ¼ö »èÁ¦
+	(plist->curPosition)--;						//plistì˜ í˜„ì¬ ì°¸ì¡°ìœ„ì¹˜ ì‚­ì œ
+	(plist->numOfData)--;						//plistì˜ í˜„ì¬ ë°ì´í„°ì˜ ìˆ˜ ì‚­ì œ
 
 	return rdata;
 }
 
 int LCount(List* plist)
 {
-	return plist->numOfData;	//ÇöÀç ÀúÀåµÈ µ¥ÀÌÅÍÀÇ¼ö ¹İÈ¯
+	return plist->numOfData;	//í˜„ì¬ ì €ì¥ëœ ë°ì´í„°ì˜ìˆ˜ ë°˜í™˜
+}
+
+int WhoIsPrecede(LData d1, LData d2)
+{
+	if (d1 < d2)
+		return 0;	//d1ì´ ì •ë ¬ ìˆœì„œìƒ ë¹ ë¥´ë‹¤
+	else
+		return 1;	//d2ê°€ ì •ë ¬ ìˆœì„œìƒ ë¹ ë¥´ê±°ë‚˜ ê°™ë‹¤
 }
 
 void SetSortRule(List* plist, int (*comp)(LData d1, LData d2))
