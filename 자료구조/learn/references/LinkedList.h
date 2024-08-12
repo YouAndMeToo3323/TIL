@@ -22,7 +22,7 @@ void ListInit(List* plist);
 //리스트에 데이터 저장, 매개변수 data에 전달된 값을 저장
 void LInsert(List* plist, LData data);
 
-//첫 번째 데이터가 pdata가 가리키는 메로리에 저장, 데이터의 참조를 위한 초기화 진행
+//첫 번째 데이터가 pdata가 가리키는 메모리에 저장, 데이터의 참조를 위한 초기화 진행
 int LFirst(List* plist, LData* pdata);
 //참조된 데이터의 다음 데이터가 pdata가 가리키는 메모리에 저장, 순차적인 참조를 위해서 반복 호출
 //참조를 새로 시작하려면 먼저 LFirst 함수 호줄
