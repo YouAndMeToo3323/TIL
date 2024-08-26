@@ -35,7 +35,10 @@ void SInsert(List* plist, LData data)
 
 	//새 노드가 들어갈 위치를 찾기 위한 반복문
 	while (pred->next != NULL && plist->comp(data, pred->next->data) != 0)
-		pred = pred->next;
+		pred = pred->next;	//다음 노드로 이동
+
+	newNode->next = newNode;
+	(plist->numOfData)++;
 }
 
 void LInsert(List* plist, LData data)
