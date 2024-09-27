@@ -91,7 +91,7 @@ void SetSortRule(List* plist, int (*comp)(LData d1, LData d2))
 	plist->comp = comp;
 }
 
-//main함수에 정의되어 있는 소스파일
+//main함수에 정의해야 하는 소스파일
 int WhoIsPrecede(int d1, int d2)
 {
 	if(d1<d2)
