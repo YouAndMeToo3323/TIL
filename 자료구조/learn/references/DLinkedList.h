@@ -45,7 +45,7 @@ int LCount(List* plist);
 //리스트에 정렬의 기준되는 함수 등록
 void SetSortRule(List* plist, int (*comp)(LData d1, LData d2));
 
-//main함수에 정의되어 있는 소스파일
+//main함수에 정의해야 하는 소스파일
 int WhoIsPrecede(int d1, int d2);
 
 #endif
